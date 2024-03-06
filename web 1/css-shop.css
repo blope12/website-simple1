@@ -1,0 +1,165 @@
+body {
+    background-image: url("11.png");
+    background-size: cover;
+
+}
+
+* {
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling the navigation */
+  .header-nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+  
+  .header-p {
+      position: absolute;
+      margin-top: 70px;
+      margin-left: 20px;
+      border: 3px solid rgb(245, 55, 87);
+      border-radius: 40px;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      z-index: 1;
+
+  }
+  
+  .aa {
+      display: inline-block;
+      padding: 20px;
+      font-size: large;
+      justify-content: space-between;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      transition: background-color 0.5s ease, color 0.5s ease;
+      border-radius: 200px;
+  }
+  
+  .header-p .aa:hover {
+      background-color: rgb(245, 55, 87);
+      color: black;
+      box-shadow: 2px 2px 10px #252525;
+      opacity: 50%;
+  }
+  
+  .header-p .aa.active {
+      background-color: rgb(245, 55, 87);
+      color: black;
+      box-shadow: 2px 2px 10px #252525;
+  }
+  
+  /* Dropdown styles */
+  .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #333;
+      min-width: 160px;
+      z-index: 1;
+      border-radius: 20px;
+  }
+  
+  .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #555;
+      border-radius: 20px;
+
+  }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+    
+    
+    .container {
+        display: inherit;
+        background-color: rgb(245, 55, 87);
+        margin: 100px 20px;
+        height: 500px;
+        border: 3px solid rgb(245, 55, 87);
+        border-radius: 40px;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        flex-direction: column; /* Stack items vertically */
+        position: relative; /* Add this to position h1 */
+    }
+    
+    .container1 {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text horizontally */
+        padding: 20px; /* Add padding for spacing */
+        margin-top: 30px;
+    }
+    .container h1 {
+        font-size: 50px;
+        position: absolute; /* Position relative to .container */
+        top: 0px;
+         /* Adjust top position as needed */
+    }
+
+
+.container1 p {
+    position: absolute;
+display: flex;
+align-items: center;
+width: 400px;
+height: 100px;
+top: 120px;
+text-align: center;
+font: bolder;
+font-size: x-large;
+}
+
+.container1 .btn1 {
+    position: absolute;
+    margin-top: 50px; /* Align button to the bottom */
+    background-color: rgb(223, 47, 76);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transition effect */
+    font-size: x-large;
+    box-shadow: 0 4px 6px rgba(41, 41, 41, 0.781);
+top: 290px;
+}
+
+.container1 .btn1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container1 .btn1:hover {
+    background-color: #161616; /* Adjust to your preferred hover color */
+    font-size: xx-large;
+    box-shadow: 0 4px 6px rgba(41, 41, 41, 0.781);
+
+}
